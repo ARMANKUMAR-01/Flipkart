@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+/* navbar */
+.navbar{
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    /* color: white; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url('flipkart-logo.png');
+    background-size:cover;
+    height: 10px;
+    width: 40px;
+    
+   
+    
+}
+/* navbox1 */
+.nav-box1{
+    /* height: 40px;
+    width: 270px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.nav-input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 35px;
+    width: 400px;
+    border: 1px solid transparent;
+
+}
+.nav-input:hover{
+    border: 1px solid blue;
+}
+.search-icon i{
+    background-color: white;
+    color: blue;
+    height: 40px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+   
+
+}
+/* navbox2 */
+.nav-box2{
+    height: 35px;
+    width: 140px;
+    background-color: white;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-login{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+/* navbox3 */
+
+.nav-box3{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* navbox4 */
+.nav-box4{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+}
+.nav-down{
+    align-items: center;
+    margin-top: 2px;
+}
+/* navbox5 */
+.nav-box5{
+    display: flex;
+    color: white;
+
+}
+.nav-box5 i{
+    font-size: 1.6rem;
+}
+.cart{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+/* panel */
+.panel{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+
+}
+.panel p {
+    font-weight: 600;
+  
+}
+.panel1 img {
+ 
+    height: 65px;
+    width: 65px;
+}
+
+.panel2 img {
+ 
+    height: 65px;
+    width: 65px;
+    padding-right: 10px;
+}
+
+.panel3 img {
+ 
+    height: 65px;
+    width: 65px;
+    padding-left: 30px;
+}
+
+.panel4 img {
+ 
+    height: 65px;
+    width: 65px;
+    padding-left: 10px;
+}
+
+.panel5 img {
+ 
+    height: 65px;
+    width: 65px;
+    padding-left: 30px;
+}
+
+.panel6 img {
+ 
+    height: 65px;
+    width: 65px;
+}
+
+.panel7 img {
+ 
+    height: 65px;
+    width: 65px;
+    padding-left: 10px;
+}
+
+/* herosection */
+
+.hero-section{
+    /* overflow-x: hidden; */
+    background-color: rgb(220, 213, 213);
+    height: 400px;
+    width: 100%;
+    display:flex;
+    /* padding: 20px 20px 0px 20px; */
+    
+}
+.hero-img{
+    background-image: url('hero.img23.jpg');
+    width: 100%;
+    height: 370px;
+    background-size: cover; 
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+/* mainsection */
+
+.main-section{
+    background-color:white;
+    height: 700px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.border{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 60px;
+    padding-bottom: 30px;
+    
+
+    
+    
+}
+.border p{
+    color: green;
+}
+
+/* footfirst */
+.foot-first{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height: 430px;
+    width: 100%;
+  
+    
+}
+.foot-detail p{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.foot-detail h4{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* footsecond */
+
+.foot-second{
+    background-color: rgb(16, 19, 63);
+    height: 320px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.foot-second p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: grey;
+}
+ul a {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    
+}
+.foot-third{
+    background-color:rgb(16, 19, 63);
+    border-top: 1px solid white;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align-last:center;
+    
+
+}
+.foot-third h4{
+    display: inline-block;
+    padding-left: 8px;
+    
+    
+}
